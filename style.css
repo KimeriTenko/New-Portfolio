@@ -269,17 +269,74 @@ element.style {}
 * {
     box-sizing: border-box;
 }
+/*img*/
+.bg {
+    background-image: https: //lh3.googleusercontent.com/v9MyfvCc8Xy3jeYdlCQ6cngfL8Tt5bigS699d_maF0GMnehvrsnS1DwC6y2Qibnv32cT176AMSD_Xo4I-TGxe4OHTsZU5rORl6v6yi8hwn4avoDMrUGYAUkhGB9Ud0uNfLfvMMFM9Q=w600-h315-p-k;
+        height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-fit: cover;
+}
 
 /*Body*/
 body {
-    color: #808080;
+    color: #f2f2f2;
     background: whitesmoke;
     font-family: "Montserrat", "sans-serif";
     font-size: 2rem;
     font-weight: 400;
     line-height: 2.0;
+    height: 100%;
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 22px;
 }
 
 footer {
-    background: linear-gradient (to bottom left, #571f4e, whitesmoke);
+    background: linear-gradient (to bottom right, #571f4e, whitesmoke);
+
+    /* Style all font awesome icons */
+
+    const feather=require('feather-icons') feather.icons.github // {
+    //    name: 'gitub',
+    //    contents: '<line ... /><line ... />`,
+    //    tags: ['cancel', 'close', 'delete', 'remove'],
+    //    attrs: {
+    //      class: 'feather feather-github',
+    //      xmlns: 'http://www.w3.org/2000/svg',
+    //      width: 24,
+    //      height: 24,
+    //      viewBox: '0 0 24 24',
+    //      fill: 'none',
+    //      stroke: 'currentColor',
+    //      'stroke-width': 2,
+    //      'stroke-linecap': 'round',
+    //      'stroke-linejoin': 'round',
+    //    },
+    //    toSvg: [Function],
+    // }
+
+    feather.icons.github.toSvg() feather.icons.linkedin // {
+    //    name: 'gitub',
+    //    contents: '<line ... /><line ... />`,
+    //    tags: ['cancel', 'close', 'delete', 'remove'],
+    //    attrs: {
+    //      class: 'feather feather-linkedin',
+    //      xmlns: 'http://www.w3.org/2000/svg',
+    //      width: 24,
+    //      height: 24,
+    //      viewBox: '0 0 24 24',
+    //      fill: 'none',
+    //      stroke: 'currentColor',
+    //      'stroke-width': 2,
+    //      'stroke-linecap': 'round',
+    //      'stroke-linejoin': 'round',
+    //    },
+    //    toSvg: [Function],
+    // }
+
+    feather.icons.linkedin.toSvg()
 }
